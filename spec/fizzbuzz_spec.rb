@@ -10,4 +10,7 @@ describe 'fizzbuzz' do
   it 'returns number for the number that is not 5 or 3' do
     expect(fizzbuzz(1)).to eq "1"
   end
+  it 'returns "fizzbuzz" for the number 15' do
+    expect(fizzbuzz(15)).to eq "fizzbuzz"
+  end
 end
